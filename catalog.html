@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+   <header>
+    <nav>
+	 <a href="index.html">
+	  <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нердс»">
+	 </a>
+	 <ul>
+	  <li>
+	   <a href="#">Студия</a>
+	  </li>
+	  <li>
+	   <a href="#">Клиенты</a>
+	  </li>
+	  <li>
+	   <a>Магазин</a>
+	  </li>
+	  <li>
+	   <a href="#">Контакты</a>
+	  </li>
+	 <ul>
+	 <a href="#">Корзина</a>
+	</nav>
+	<h1>Магазин готовых шаблонов</h1>
+   </header>
+   
+   <main>
+   <section>
+   <form action="https://echo.htmlacademy.ru/" method="get">
+    <fieldset>
+	 <legend>Стоимость:</legend>
+	 <label for="cost">
+	  <input type="range" id="cost" min="1" max="15000" step="1">
+	 </label>
+	 <label for="zero">От</label>
+	 <input type="text" id="zero" name="from-zero" placeholder="0">
+	 <label for="fifteen">До</label>
+	 <input type="text" id="fifteen" name="to-fifteen" placeholder="15000">
+	</fieldset>
+	<fieldset>
+	 <legend>Сетка:</legend>
+	  <ul>
+	   <li>
+	    <label for="adaptive">
+	     <input type="radio" id="adaptive" name="question-one" value="Адаптивная" checked>
+	     Адаптивная
+	    </label>
+	   </li>
+	   <li>
+	    <label for="fixed">
+	     <input type="radio" id="fixed" name="question-one" value="Фиксированная">
+	     Фиксированная
+	   </label>
+	  </li>
+	  <li>
+	   <label for="rubber">
+	    <input type="radio" id="rubber" name="question-one" value="Резиновая">
+	    Резиновая
+	  </label>
+	  </li>
+	 </ul>
+	</fieldset>
+	<fieldset>
+	 <legend>Особенности:</legend>
+	 <ul>
+	  <li>
+	   <input type="checkbox" id="slider" name="slider" checked>
+	   <label for="slider">Слайдер</label>
+	  </li>
+	  <li>
+	   <input type="checkbox" id="advantages" name="benefits-block">
+	   <label for="advantages">Блок преимуществ</label>
+	  </li>
+	  <li>
+	   <input type="checkbox" id="news" name="news-1" checked>
+	   <label for="news">Новости</label>
+	  </li>
+	  <li>
+	   <input type="checkbox" id="gallery" name="gallery-1">
+	   <label for="gallery">Галерея</label>
+	  </li>
+	  <li>
+	   <input type="checkbox" id="basket" name="basket-1">
+	   <label for="basket">Корзина</label>
+	  </li>
+	 </ul>
+	</fieldset>
+    <button type="submit">Показать</button>
+   </form>
+  </section>
+  <section>
+   <div>
+    <p>Сортировать:</p>
+	<div>
+	 <ul>
+	  <li>
+	   <a href="#">По цене</a>
+	  </li>
+	  <li>
+	   <a href="#">По типу</a>
+	  </li>
+	  <li>
+	   <a href="#">По названию</a>
+	  </li>
+	  <li>
+	   <a href="#" area-label="Указатель вниз">Указатель вниз</a>
+	  </li>
+	  <li>
+	   <a href="#" area-label="Указатель вверх">Указатель вверх</a>
+	  </li>
+	 </ul>
+	</div>
+   </div>
+   <div>
+    <ul>
+	 <li>
+	  <div>
+	   <p>
+	    <img src="img/mask-group.jpg" width="358" height="578" alt="Сайт для туристов «Седона»">
+	   </p>
+	  </div>
+	  <div>
+	   <a href="#">
+	    <h4>Sedona</h4>
+	   </a>
+	    <p>Информационный сайт для туристов</p>
+	    <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	 <li>
+	  <div>
+	   <p>
+	    <img src="img/img-pink.jpg" width="358" height="578" alt="Сайт приложения «Pink»">
+	   </p>
+	  </div>
+	  <div>
+	   <a href="#">
+	    <h4>Pink App</h4>
+	   </a>
+	    <p>Продуктовый лендинг приложения для iOS и Android</p>
+	    <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	  <li>
+	   <div>
+	    <p>
+	     <img src="img/img-barbershop.jpg" width="358" height="578" alt="Сайт барбершопа «Бородинский»">
+	    </p>
+	   </div>
+	  <div>
+	   <a href="#">
+	    <h4>Barbershop</h4>
+	   </a>
+	     <p>Сайт салона красоты.<br>
+		    Для мужчин, да.
+		 </p>
+	     <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	 <li>
+	  <div>
+	   <p>
+	    <img src="img/img-mishka.jpg" width="358" height="578" alt="Сайт товаров ручной работы «Мишка»">
+	   </p>
+	  </div>
+	  <div>
+	   <a href="#">
+	    <h4>Mishka</h4>
+	   </a>
+	    <p>Интернет-магазин<br>
+		   вязаных игрушек
+		</p>
+	    <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	 <li>
+	  <div>
+	   <p>
+	    <img src="img/img-aplus.jpg" width="358" height="578" alt="Образовательный сайт «А плюс»">
+	   </p>
+	  </div>
+	  <div>
+	   <a href="#">
+	    <h4>A Plus</h4>
+	   </a>
+	    <p>Лендинг курсов<br>
+		   повышения квалификации
+		</p>
+	    <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	 <li>
+	  <div>
+	   <p>
+	    <img src="img/img-kvast.jpg" width="358" height="578" alt="Сайт крафтового кваса «Кваст»">
+	   </p>
+	  </div>
+	  <div>
+	   <a href="#">
+	    <h4>Кваст</h4>
+	   </a>
+	    <p>Промо-сайт производителя<br>
+		   крафтового кваса
+		</p>
+	    <button type="button">9900 P</button>
+	  </div>
+	 </li>
+	</ul>
+   </div>
+   <div>
+    <ul>
+	 <li>
+	  <a>1</a>
+	 </li>
+	  <li>
+	  <a href="#">2</a>
+	 </li>
+	  <li>
+	  <a href="#">3</a>
+	 </li>
+	  <li>
+	  <a href="#">Следущая</a>
+	 </li>
+	</ul>
+   </div>
+  </section>
+   </main>
+   
+   <footer>
+    <section>
+	 <h2>Адрес дизайн-студии «Нердс»</h2>
+	 <p>Nerds design studio</p>
+	 <div>
+	  <p>191186, Санкт-Петербург,<br>
+	     ул. Б. Конюшенная, д. 19/8
+	  </p>
+	  <p>
+	   <a href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+	  </p>
+	 </div>
+	 <a href="#">Напишите нам</a>
+	</section>
+	<section>
+	 <div>
+	  <p>
+	   <img src="img/map.png" width="1440" height="416" alt="Адрес студии «Нердс» Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+	  </p>
+	  <div>
+	   <div>
+	    <ul>
+		 <li><a href="#" area-label="ВКонтакте">ВКонтакте</a></li>
+		 <li><a href="#" area-label="Facebook">Facebook</a></li>
+		 <li><a href="#" area-label="Instagram">Instagram</a></li>
+		</ul>
+	   </div>
+	   <div>
+	    <p>Давайте дружить, это выгодно!</p>
+		<p>Скидка 10% для друзей из социальных сетей.</p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+	</section>
+   </footer>
+   
+   <section>
+    <h2>Обратная связь</h2>
+	<form>
+	 <fieldset>
+	  <legend>Напишите нам</legend>
+	  <div>
+	   <label for="name">Ваше имя:</label>
+	   <input type="text" id="name" name="username" placeholder="Имя Фамилия" required>
+	  </div>
+	  <div>
+	   <label for="email">Ваш email:</label>
+	   <input type="email" id="email" name="user-mail" placeholder="email.example.com" required>
+	  </div>
+	  <div>
+	   <label for="email">Текст письма:</label>
+	   <input type="email" id="email" name="user-mail" placeholder="В свободной форме" required>
+	  </div>
+	  <button type="button">Отправить</button>
+	 </fieldset>
+	 <button type="button">Закрыть</button>
+	</form>
+   </section>
+   
+  </body>
+</html>

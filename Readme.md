@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Вера](https://up.htmlacademy.ru/htmlcss/28/user/1432899).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Уразаев](https://htmlacademy.ru/profile/urazaev).
 
 ---
 
